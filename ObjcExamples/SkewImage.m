@@ -20,7 +20,7 @@
     [super viewDidLoad];
     _SliderSkew.value =0;
     _SliderSkew.maximumValue = 360;
-    _SliderSkew.maximumValue =0;
+    _SliderSkew.minimumValue =0;
 }
 - (IBAction)Skew:(id)sender {
     CATransform3D t =CATransform3DIdentity;
