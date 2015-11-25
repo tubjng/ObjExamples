@@ -9,6 +9,7 @@
 #import "Customized UISwitch.h"
 
 @interface Customized_UISwitch ()
+
 @property (weak, nonatomic) IBOutlet UIButton *on;
 @property (weak, nonatomic) IBOutlet UIButton *off;
 
@@ -18,10 +19,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [_on setImage:[UIImage imageNamed:@"OnBlack"] forState:UIControlStateNormal];
-    [_on setImage:[UIImage imageNamed:@"OnWhite"] forState:UIControlStateSelected];
-    [_off setImage:[UIImage imageNamed:@"OffBlack"] forState:UIControlStateNormal];
-    [_off setImage:[UIImage imageNamed:@"OffWhite"] forState:UIControlStateSelected];
+    self.view.backgroundColor = [UIColor yellowColor];
+    UIImage *test =[UIImage imageNamed:@"OnBlack.png"];
+  //   _on = [[UIButton alloc] init];
+    
+    [self.on setImage:test forState:UIControlStateNormal];
+    [self.on setImage:[UIImage imageNamed:@"OnWhite.png"] forState:UIControlStateSelected];
+    [self.off setImage:[UIImage imageNamed:@"OffBlack.png"] forState:UIControlStateNormal];
+    [self.off setImage:[UIImage imageNamed:@"OffWhite.png"] forState:UIControlStateSelected];
 }
 - (void) buttonTap {
     _on.selected = !_off.selected;

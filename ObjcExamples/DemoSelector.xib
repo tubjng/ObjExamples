@@ -15,20 +15,16 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="tyt-oR-KAg">
-                    <rect key="frame" x="13" y="106" width="558" height="31"/>
-                    <connections>
-                        <action selector="Slider:" destination="-1" eventType="valueChanged" id="Jw8-BO-nTo"/>
-                        <action selector="slider:" destination="-1" eventType="valueChanged" id="sDq-W8-xV9"/>
-                    </connections>
-                </slider>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ezq-qe-dRO">
-                    <rect key="frame" x="232" y="181" width="121" height="30"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ezq-qe-dRO">
+                    <rect key="frame" x="257" y="181" width="85" height="30"/>
                     <state key="normal" title="Crunch data"/>
                     <connections>
                         <action selector="oncrunchData:" destination="-1" eventType="touchUpInside" id="Qse-5t-97c"/>
                     </connections>
                 </button>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="tyt-oR-KAg">
+                    <rect key="frame" x="13" y="106" width="574" height="31"/>
+                </slider>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
