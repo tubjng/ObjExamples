@@ -19,7 +19,8 @@
                                     @{TITLE: @"Function", CLASS: @"DemoFunction"},
                                     @{TITLE: @"Selector", CLASS: @"DemoSelector"},
                                     @{TITLE: @"Slider", CLASS: @"DemoSlider"},
-                                     @{TITLE: @"UISwitch", CLASS: @"Customized_UISwitch"}
+                                     @{TITLE: @"UISwitch", CLASS: @"Customized_UISwitch"},
+                                     @{TITLE: @"SkewImage", CLASS: @"SkewImage"}
                           ]};
     NSDictionary* intermediate = @{SECTION: @"Intermediate", MENU: @[
                                     @{TITLE: @"Dictionary", CLASS: @"InterB"},

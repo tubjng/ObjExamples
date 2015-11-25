@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		043C16EE1C04DD3000286C39 /* DemoSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 043C16EC1C04DD3000286C39 /* DemoSlider.m */; settings = {ASSET_TAGS = (); }; };
 		043C16EF1C04DD3000286C39 /* DemoSlider.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043C16ED1C04DD3000286C39 /* DemoSlider.xib */; settings = {ASSET_TAGS = (); }; };
-		04634F811C04E30000CCB02B /* Customized UISwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 04634F7F1C04E30000CCB02B /* Customized UISwitch.m */; settings = {ASSET_TAGS = (); }; };
-		04634F821C04E30000CCB02B /* Customized UISwitch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04634F801C04E30000CCB02B /* Customized UISwitch.xib */; settings = {ASSET_TAGS = (); }; };
 		04634F881C04E63300CCB02B /* OffBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 04634F841C04E63300CCB02B /* OffBlack.png */; settings = {ASSET_TAGS = (); }; };
 		04634F891C04E63300CCB02B /* OffWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 04634F851C04E63300CCB02B /* OffWhite.png */; settings = {ASSET_TAGS = (); }; };
 		04634F8A1C04E63300CCB02B /* OnBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 04634F861C04E63300CCB02B /* OnBlack.png */; settings = {ASSET_TAGS = (); }; };
 		04634F8B1C04E63300CCB02B /* OnWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 04634F871C04E63300CCB02B /* OnWhite.png */; settings = {ASSET_TAGS = (); }; };
+		04634F971C055E8300CCB02B /* Customized UISwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 04634F951C055E8300CCB02B /* Customized UISwitch.m */; settings = {ASSET_TAGS = (); }; };
+		04634F981C055E8300CCB02B /* Customized UISwitch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04634F961C055E8300CCB02B /* Customized UISwitch.xib */; settings = {ASSET_TAGS = (); }; };
+		04634F9C1C05702000CCB02B /* SkewImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 04634F9A1C05702000CCB02B /* SkewImage.m */; settings = {ASSET_TAGS = (); }; };
+		04634F9D1C05702000CCB02B /* SkewImage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04634F9B1C05702000CCB02B /* SkewImage.xib */; settings = {ASSET_TAGS = (); }; };
+		04634FA21C05711C00CCB02B /* SkewImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04634FA11C05711C00CCB02B /* SkewImage.jpg */; settings = {ASSET_TAGS = (); }; };
 		0499B9C01C04231C00B35444 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499B9BF1C04231C00B35444 /* main.m */; };
 		0499B9CB1C04231D00B35444 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0499B9CA1C04231D00B35444 /* Assets.xcassets */; };
 		0499B9CE1C04231D00B35444 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0499B9CC1C04231D00B35444 /* LaunchScreen.storyboard */; };
@@ -50,13 +53,17 @@
 		043C16EB1C04DD3000286C39 /* DemoSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSlider.h; sourceTree = "<group>"; };
 		043C16EC1C04DD3000286C39 /* DemoSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoSlider.m; sourceTree = "<group>"; };
 		043C16ED1C04DD3000286C39 /* DemoSlider.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoSlider.xib; sourceTree = "<group>"; };
-		04634F7E1C04E30000CCB02B /* Customized UISwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Customized UISwitch.h"; sourceTree = "<group>"; };
-		04634F7F1C04E30000CCB02B /* Customized UISwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Customized UISwitch.m"; sourceTree = "<group>"; };
-		04634F801C04E30000CCB02B /* Customized UISwitch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Customized UISwitch.xib"; sourceTree = "<group>"; };
 		04634F841C04E63300CCB02B /* OffBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OffBlack.png; sourceTree = "<group>"; };
 		04634F851C04E63300CCB02B /* OffWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OffWhite.png; sourceTree = "<group>"; };
 		04634F861C04E63300CCB02B /* OnBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OnBlack.png; sourceTree = "<group>"; };
 		04634F871C04E63300CCB02B /* OnWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OnWhite.png; sourceTree = "<group>"; };
+		04634F941C055E8300CCB02B /* Customized UISwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Customized UISwitch.h"; sourceTree = "<group>"; };
+		04634F951C055E8300CCB02B /* Customized UISwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Customized UISwitch.m"; sourceTree = "<group>"; };
+		04634F961C055E8300CCB02B /* Customized UISwitch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Customized UISwitch.xib"; sourceTree = "<group>"; };
+		04634F991C05702000CCB02B /* SkewImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkewImage.h; sourceTree = "<group>"; };
+		04634F9A1C05702000CCB02B /* SkewImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkewImage.m; sourceTree = "<group>"; };
+		04634F9B1C05702000CCB02B /* SkewImage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SkewImage.xib; sourceTree = "<group>"; };
+		04634FA11C05711C00CCB02B /* SkewImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SkewImage.jpg; sourceTree = "<group>"; };
 		0499B9BB1C04231C00B35444 /* ObjcExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjcExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0499B9BF1C04231C00B35444 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0499B9CA1C04231D00B35444 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -119,6 +126,14 @@
 			name = "Image Switch";
 			sourceTree = "<group>";
 		};
+		04634F9E1C05707F00CCB02B /* SkewImage */ = {
+			isa = PBXGroup;
+			children = (
+				04634FA11C05711C00CCB02B /* SkewImage.jpg */,
+			);
+			name = SkewImage;
+			sourceTree = "<group>";
+		};
 		0499B9B21C04231C00B35444 = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +157,7 @@
 		0499B9BD1C04231C00B35444 /* ObjcExamples */ = {
 			isa = PBXGroup;
 			children = (
+				04634F9E1C05707F00CCB02B /* SkewImage */,
 				04634F831C04E60A00CCB02B /* Image Switch */,
 				0499B9F11C04237900B35444 /* Core */,
 				0499BA011C04250400B35444 /* Basic */,
@@ -205,9 +221,12 @@
 				043C16EB1C04DD3000286C39 /* DemoSlider.h */,
 				043C16EC1C04DD3000286C39 /* DemoSlider.m */,
 				043C16ED1C04DD3000286C39 /* DemoSlider.xib */,
-				04634F7E1C04E30000CCB02B /* Customized UISwitch.h */,
-				04634F7F1C04E30000CCB02B /* Customized UISwitch.m */,
-				04634F801C04E30000CCB02B /* Customized UISwitch.xib */,
+				04634F941C055E8300CCB02B /* Customized UISwitch.h */,
+				04634F951C055E8300CCB02B /* Customized UISwitch.m */,
+				04634F961C055E8300CCB02B /* Customized UISwitch.xib */,
+				04634F991C05702000CCB02B /* SkewImage.h */,
+				04634F9A1C05702000CCB02B /* SkewImage.m */,
+				04634F9B1C05702000CCB02B /* SkewImage.xib */,
 			);
 			name = Basic;
 			sourceTree = "<group>";
@@ -316,12 +335,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				04634F8A1C04E63300CCB02B /* OnBlack.png in Resources */,
-				04634F821C04E30000CCB02B /* Customized UISwitch.xib in Resources */,
+				04634F9D1C05702000CCB02B /* SkewImage.xib in Resources */,
 				0499B9CE1C04231D00B35444 /* LaunchScreen.storyboard in Resources */,
 				0499BA141C04291100B35444 /* DemoSelector.xib in Resources */,
 				0499B9CB1C04231D00B35444 /* Assets.xcassets in Resources */,
+				04634FA21C05711C00CCB02B /* SkewImage.jpg in Resources */,
 				043C16EF1C04DD3000286C39 /* DemoSlider.xib in Resources */,
 				04634F891C04E63300CCB02B /* OffWhite.png in Resources */,
+				04634F981C055E8300CCB02B /* Customized UISwitch.xib in Resources */,
 				04634F8B1C04E63300CCB02B /* OnWhite.png in Resources */,
 				04634F881C04E63300CCB02B /* OffBlack.png in Resources */,
 			);
@@ -355,7 +376,8 @@
 				0499BA0A1C0425E700B35444 /* DemoFunction.m in Sources */,
 				0499BA131C04291100B35444 /* DemoSelector.m in Sources */,
 				0499B9C01C04231C00B35444 /* main.m in Sources */,
-				04634F811C04E30000CCB02B /* Customized UISwitch.m in Sources */,
+				04634F9C1C05702000CCB02B /* SkewImage.m in Sources */,
+				04634F971C055E8300CCB02B /* Customized UISwitch.m in Sources */,
 				043C16EE1C04DD3000286C39 /* DemoSlider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

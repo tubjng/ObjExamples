@@ -18,25 +18,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UIImage* imageOnBlack =[UIImage imageNamed:@"OnBlack.png"];
-    UIImage* imageOffBlack=[UIImage imageNamed:@"OffBlack.png"];
-    UIImage* imageOnWhite=[UIImage imageNamed:@"OnWhite.png"];
-    UIImage* imageOffWhite=[UIImage imageNamed:@"OffWhite.png"];
-    
-    
-    
-    [_on setImage:imageOnBlack forState:UIControlStateNormal];
-    [_on setImage:imageOffWhite forState:UIControlStateNormal];
-    [_off setImage:imageOffBlack forState:UIControlStateNormal];
-    [_off setImage:imageOffWhite forState:UIControlStateNormal];
-    
+    [_on setImage:[UIImage imageNamed:@"OnBlack"] forState:UIControlStateNormal];
+    [_on setImage:[UIImage imageNamed:@"OnWhite"] forState:UIControlStateSelected];
+    [_off setImage:[UIImage imageNamed:@"OffBlack"] forState:UIControlStateNormal];
+    [_off setImage:[UIImage imageNamed:@"OffWhite"] forState:UIControlStateSelected];
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void) buttonTap {
+    _on.selected = !_off.selected;
 }
-
-
-
 @end
