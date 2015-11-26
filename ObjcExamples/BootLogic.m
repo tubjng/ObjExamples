@@ -18,13 +18,16 @@
     NSDictionary* basic = @{SECTION: @"Basic", MENU: @[
                                     @{TITLE: @"Function", CLASS: @"DemoFunction"},
                                     @{TITLE: @"Selector", CLASS: @"DemoSelector"},
+                                    @{TITLE: @"CvsObcFunction", CLASS: @"CvsObcFunction"},
                                     @{TITLE: @"Slider", CLASS: @"DemoSlider"},
                                      @{TITLE: @"UISwitch", CLASS: @"Customized_UISwitch"},
                                      @{TITLE: @"SkewImage", CLASS: @"SkewImage"}
                           ]};
-    NSDictionary* intermediate = @{SECTION: @"Intermediate", MENU: @[
-                                    @{TITLE: @"Dictionary", CLASS: @"InterB"},
-                                     @{TITLE: @"Array", CLASS: @"InterB"}
+    NSDictionary* intermediate = @{SECTION: @"Array", MENU: @[
+                                    @{TITLE: @"CreateArray", CLASS: @"CreateArray"},
+                                     @{TITLE: @"QueryArray", CLASS: @"QueryArray"},
+                                     @{TITLE: @"ArrayHW1", CLASS: @"ArrayHW1"},
+                                     @{TITLE: @"ArrayHW2", CLASS: @"ArrayHW2"}
                                   ]};
     NSDictionary* advanced = @{SECTION: @"Advanced", MENU: @[
                                     @{TITLE: @"Advanced C", CLASS: @"AdvancedC"}

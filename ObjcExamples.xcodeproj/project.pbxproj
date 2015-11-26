@@ -30,6 +30,15 @@
 		0499BA0A1C0425E700B35444 /* DemoFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499BA091C0425E700B35444 /* DemoFunction.m */; settings = {ASSET_TAGS = (); }; };
 		0499BA131C04291100B35444 /* DemoSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499BA111C04291100B35444 /* DemoSelector.m */; settings = {ASSET_TAGS = (); }; };
 		0499BA141C04291100B35444 /* DemoSelector.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0499BA121C04291100B35444 /* DemoSelector.xib */; settings = {ASSET_TAGS = (); }; };
+		04E520121C06C57100E23EF0 /* CvsObcFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E520111C06C57100E23EF0 /* CvsObcFunction.m */; settings = {ASSET_TAGS = (); }; };
+		04E520251C06DCC500E23EF0 /* CreateArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E520241C06DCC500E23EF0 /* CreateArray.m */; settings = {ASSET_TAGS = (); }; };
+		04E520271C06E15700E23EF0 /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04E520261C06E15700E23EF0 /* Data.plist */; settings = {ASSET_TAGS = (); }; };
+		04E5202A1C074B7E00E23EF0 /* QueryArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E520291C074B7E00E23EF0 /* QueryArray.m */; settings = {ASSET_TAGS = (); }; };
+		04E5202D1C074D7100E23EF0 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5202C1C074D7100E23EF0 /* Student.m */; settings = {ASSET_TAGS = (); }; };
+		04E520301C077AFC00E23EF0 /* ArrayHW1.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5202F1C077AFC00E23EF0 /* ArrayHW1.m */; settings = {ASSET_TAGS = (); }; };
+		04E520321C077B2300E23EF0 /* ArrayHW1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04E520311C077B2300E23EF0 /* ArrayHW1.plist */; settings = {ASSET_TAGS = (); }; };
+		04E520351C07860900E23EF0 /* ArrayHW2.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E520341C07860900E23EF0 /* ArrayHW2.m */; settings = {ASSET_TAGS = (); }; };
+		04E520381C07863D00E23EF0 /* ArrayHW2RemoveDuplicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E520371C07863D00E23EF0 /* ArrayHW2RemoveDuplicate.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +97,22 @@
 		0499BA101C04291100B35444 /* DemoSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSelector.h; sourceTree = "<group>"; };
 		0499BA111C04291100B35444 /* DemoSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoSelector.m; sourceTree = "<group>"; };
 		0499BA121C04291100B35444 /* DemoSelector.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoSelector.xib; sourceTree = "<group>"; };
+		04E520101C06C57100E23EF0 /* CvsObcFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CvsObcFunction.h; sourceTree = "<group>"; };
+		04E520111C06C57100E23EF0 /* CvsObcFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CvsObcFunction.m; sourceTree = "<group>"; };
+		04E520231C06DCC500E23EF0 /* CreateArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateArray.h; sourceTree = "<group>"; };
+		04E520241C06DCC500E23EF0 /* CreateArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateArray.m; sourceTree = "<group>"; };
+		04E520261C06E15700E23EF0 /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
+		04E520281C074B7E00E23EF0 /* QueryArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryArray.h; sourceTree = "<group>"; };
+		04E520291C074B7E00E23EF0 /* QueryArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueryArray.m; sourceTree = "<group>"; };
+		04E5202B1C074D7100E23EF0 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		04E5202C1C074D7100E23EF0 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		04E5202E1C077AFC00E23EF0 /* ArrayHW1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayHW1.h; sourceTree = "<group>"; };
+		04E5202F1C077AFC00E23EF0 /* ArrayHW1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayHW1.m; sourceTree = "<group>"; };
+		04E520311C077B2300E23EF0 /* ArrayHW1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ArrayHW1.plist; sourceTree = "<group>"; };
+		04E520331C07860900E23EF0 /* ArrayHW2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayHW2.h; sourceTree = "<group>"; };
+		04E520341C07860900E23EF0 /* ArrayHW2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayHW2.m; sourceTree = "<group>"; };
+		04E520361C07863D00E23EF0 /* ArrayHW2RemoveDuplicate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayHW2RemoveDuplicate.h; sourceTree = "<group>"; };
+		04E520371C07863D00E23EF0 /* ArrayHW2RemoveDuplicate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayHW2RemoveDuplicate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +186,7 @@
 				04634F831C04E60A00CCB02B /* Image Switch */,
 				0499B9F11C04237900B35444 /* Core */,
 				0499BA011C04250400B35444 /* Basic */,
+				04E5201F1C06DBF300E23EF0 /* Array */,
 				0499B9CA1C04231D00B35444 /* Assets.xcassets */,
 				0499B9CC1C04231D00B35444 /* LaunchScreen.storyboard */,
 				0499B9CF1C04231D00B35444 /* Info.plist */,
@@ -227,8 +253,31 @@
 				04634F991C05702000CCB02B /* SkewImage.h */,
 				04634F9A1C05702000CCB02B /* SkewImage.m */,
 				04634F9B1C05702000CCB02B /* SkewImage.xib */,
+				04E520101C06C57100E23EF0 /* CvsObcFunction.h */,
+				04E520111C06C57100E23EF0 /* CvsObcFunction.m */,
 			);
 			name = Basic;
+			sourceTree = "<group>";
+		};
+		04E5201F1C06DBF300E23EF0 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				04E520231C06DCC500E23EF0 /* CreateArray.h */,
+				04E520241C06DCC500E23EF0 /* CreateArray.m */,
+				04E520261C06E15700E23EF0 /* Data.plist */,
+				04E520281C074B7E00E23EF0 /* QueryArray.h */,
+				04E520291C074B7E00E23EF0 /* QueryArray.m */,
+				04E5202B1C074D7100E23EF0 /* Student.h */,
+				04E5202C1C074D7100E23EF0 /* Student.m */,
+				04E5202E1C077AFC00E23EF0 /* ArrayHW1.h */,
+				04E5202F1C077AFC00E23EF0 /* ArrayHW1.m */,
+				04E520311C077B2300E23EF0 /* ArrayHW1.plist */,
+				04E520331C07860900E23EF0 /* ArrayHW2.h */,
+				04E520341C07860900E23EF0 /* ArrayHW2.m */,
+				04E520361C07863D00E23EF0 /* ArrayHW2RemoveDuplicate.h */,
+				04E520371C07863D00E23EF0 /* ArrayHW2RemoveDuplicate.m */,
+			);
+			name = Array;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,8 +388,10 @@
 				04634F9D1C05702000CCB02B /* SkewImage.xib in Resources */,
 				0499B9CE1C04231D00B35444 /* LaunchScreen.storyboard in Resources */,
 				0499BA141C04291100B35444 /* DemoSelector.xib in Resources */,
+				04E520321C077B2300E23EF0 /* ArrayHW1.plist in Resources */,
 				0499B9CB1C04231D00B35444 /* Assets.xcassets in Resources */,
 				04634FA21C05711C00CCB02B /* SkewImage.jpg in Resources */,
+				04E520271C06E15700E23EF0 /* Data.plist in Resources */,
 				043C16EF1C04DD3000286C39 /* DemoSlider.xib in Resources */,
 				04634F891C04E63300CCB02B /* OffWhite.png in Resources */,
 				04634F981C055E8300CCB02B /* Customized UISwitch.xib in Resources */,
@@ -370,14 +421,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E520121C06C57100E23EF0 /* CvsObcFunction.m in Sources */,
 				0499B9FE1C0423F900B35444 /* BootLogic.m in Sources */,
 				0499BA001C0423F900B35444 /* MainScreen.m in Sources */,
 				0499B9FF1C0423F900B35444 /* ConsoleScreen.m in Sources */,
 				0499B9FD1C0423F900B35444 /* AppDelegate.m in Sources */,
+				04E520351C07860900E23EF0 /* ArrayHW2.m in Sources */,
+				04E5202A1C074B7E00E23EF0 /* QueryArray.m in Sources */,
 				0499BA0A1C0425E700B35444 /* DemoFunction.m in Sources */,
 				0499BA131C04291100B35444 /* DemoSelector.m in Sources */,
+				04E520251C06DCC500E23EF0 /* CreateArray.m in Sources */,
+				04E520301C077AFC00E23EF0 /* ArrayHW1.m in Sources */,
+				04E520381C07863D00E23EF0 /* ArrayHW2RemoveDuplicate.m in Sources */,
 				0499B9C01C04231C00B35444 /* main.m in Sources */,
 				04634F9C1C05702000CCB02B /* SkewImage.m in Sources */,
+				04E5202D1C074D7100E23EF0 /* Student.m in Sources */,
 				04634F971C055E8300CCB02B /* Customized UISwitch.m in Sources */,
 				043C16EE1C04DD3000286C39 /* DemoSlider.m in Sources */,
 			);
