@@ -38,7 +38,6 @@
 		04E520301C077AFC00E23EF0 /* ArrayHW1.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5202F1C077AFC00E23EF0 /* ArrayHW1.m */; settings = {ASSET_TAGS = (); }; };
 		04E520321C077B2300E23EF0 /* ArrayHW1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04E520311C077B2300E23EF0 /* ArrayHW1.plist */; settings = {ASSET_TAGS = (); }; };
 		04E520351C07860900E23EF0 /* ArrayHW2.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E520341C07860900E23EF0 /* ArrayHW2.m */; settings = {ASSET_TAGS = (); }; };
-		04E520381C07863D00E23EF0 /* ArrayHW2RemoveDuplicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E520371C07863D00E23EF0 /* ArrayHW2RemoveDuplicate.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,8 +110,6 @@
 		04E520311C077B2300E23EF0 /* ArrayHW1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ArrayHW1.plist; sourceTree = "<group>"; };
 		04E520331C07860900E23EF0 /* ArrayHW2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayHW2.h; sourceTree = "<group>"; };
 		04E520341C07860900E23EF0 /* ArrayHW2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayHW2.m; sourceTree = "<group>"; };
-		04E520361C07863D00E23EF0 /* ArrayHW2RemoveDuplicate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayHW2RemoveDuplicate.h; sourceTree = "<group>"; };
-		04E520371C07863D00E23EF0 /* ArrayHW2RemoveDuplicate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayHW2RemoveDuplicate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -274,8 +271,6 @@
 				04E520311C077B2300E23EF0 /* ArrayHW1.plist */,
 				04E520331C07860900E23EF0 /* ArrayHW2.h */,
 				04E520341C07860900E23EF0 /* ArrayHW2.m */,
-				04E520361C07863D00E23EF0 /* ArrayHW2RemoveDuplicate.h */,
-				04E520371C07863D00E23EF0 /* ArrayHW2RemoveDuplicate.m */,
 			);
 			name = Array;
 			sourceTree = "<group>";
@@ -432,7 +427,6 @@
 				0499BA131C04291100B35444 /* DemoSelector.m in Sources */,
 				04E520251C06DCC500E23EF0 /* CreateArray.m in Sources */,
 				04E520301C077AFC00E23EF0 /* ArrayHW1.m in Sources */,
-				04E520381C07863D00E23EF0 /* ArrayHW2RemoveDuplicate.m in Sources */,
 				0499B9C01C04231C00B35444 /* main.m in Sources */,
 				04634F9C1C05702000CCB02B /* SkewImage.m in Sources */,
 				04E5202D1C074D7100E23EF0 /* Student.m in Sources */,
