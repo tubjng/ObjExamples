@@ -38,6 +38,9 @@
 		04E520301C077AFC00E23EF0 /* ArrayHW1.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5202F1C077AFC00E23EF0 /* ArrayHW1.m */; settings = {ASSET_TAGS = (); }; };
 		04E520321C077B2300E23EF0 /* ArrayHW1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04E520311C077B2300E23EF0 /* ArrayHW1.plist */; settings = {ASSET_TAGS = (); }; };
 		04E520351C07860900E23EF0 /* ArrayHW2.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E520341C07860900E23EF0 /* ArrayHW2.m */; settings = {ASSET_TAGS = (); }; };
+		04E5203B1C08611600E23EF0 /* cArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5203A1C08611600E23EF0 /* cArray.m */; settings = {ASSET_TAGS = (); }; };
+		04E5203E1C086AAF00E23EF0 /* ArrayQuicksort8x8.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5203D1C086AAF00E23EF0 /* ArrayQuicksort8x8.m */; settings = {ASSET_TAGS = (); }; };
+		04E520411C0871EE00E23EF0 /* ArrayQuicksortA_Z.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E520401C0871EE00E23EF0 /* ArrayQuicksortA_Z.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +113,12 @@
 		04E520311C077B2300E23EF0 /* ArrayHW1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ArrayHW1.plist; sourceTree = "<group>"; };
 		04E520331C07860900E23EF0 /* ArrayHW2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayHW2.h; sourceTree = "<group>"; };
 		04E520341C07860900E23EF0 /* ArrayHW2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayHW2.m; sourceTree = "<group>"; };
+		04E520391C08611600E23EF0 /* cArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cArray.h; sourceTree = "<group>"; };
+		04E5203A1C08611600E23EF0 /* cArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cArray.m; sourceTree = "<group>"; };
+		04E5203C1C086AAF00E23EF0 /* ArrayQuicksort8x8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayQuicksort8x8.h; sourceTree = "<group>"; };
+		04E5203D1C086AAF00E23EF0 /* ArrayQuicksort8x8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayQuicksort8x8.m; sourceTree = "<group>"; };
+		04E5203F1C0871EE00E23EF0 /* ArrayQuicksortA_Z.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayQuicksortA_Z.h; sourceTree = "<group>"; };
+		04E520401C0871EE00E23EF0 /* ArrayQuicksortA_Z.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayQuicksortA_Z.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -271,6 +280,12 @@
 				04E520311C077B2300E23EF0 /* ArrayHW1.plist */,
 				04E520331C07860900E23EF0 /* ArrayHW2.h */,
 				04E520341C07860900E23EF0 /* ArrayHW2.m */,
+				04E520391C08611600E23EF0 /* cArray.h */,
+				04E5203A1C08611600E23EF0 /* cArray.m */,
+				04E5203C1C086AAF00E23EF0 /* ArrayQuicksort8x8.h */,
+				04E5203D1C086AAF00E23EF0 /* ArrayQuicksort8x8.m */,
+				04E5203F1C0871EE00E23EF0 /* ArrayQuicksortA_Z.h */,
+				04E520401C0871EE00E23EF0 /* ArrayQuicksortA_Z.m */,
 			);
 			name = Array;
 			sourceTree = "<group>";
@@ -419,12 +434,15 @@
 				04E520121C06C57100E23EF0 /* CvsObcFunction.m in Sources */,
 				0499B9FE1C0423F900B35444 /* BootLogic.m in Sources */,
 				0499BA001C0423F900B35444 /* MainScreen.m in Sources */,
+				04E520411C0871EE00E23EF0 /* ArrayQuicksortA_Z.m in Sources */,
 				0499B9FF1C0423F900B35444 /* ConsoleScreen.m in Sources */,
 				0499B9FD1C0423F900B35444 /* AppDelegate.m in Sources */,
 				04E520351C07860900E23EF0 /* ArrayHW2.m in Sources */,
 				04E5202A1C074B7E00E23EF0 /* QueryArray.m in Sources */,
 				0499BA0A1C0425E700B35444 /* DemoFunction.m in Sources */,
 				0499BA131C04291100B35444 /* DemoSelector.m in Sources */,
+				04E5203B1C08611600E23EF0 /* cArray.m in Sources */,
+				04E5203E1C086AAF00E23EF0 /* ArrayQuicksort8x8.m in Sources */,
 				04E520251C06DCC500E23EF0 /* CreateArray.m in Sources */,
 				04E520301C077AFC00E23EF0 /* ArrayHW1.m in Sources */,
 				0499B9C01C04231C00B35444 /* main.m in Sources */,
