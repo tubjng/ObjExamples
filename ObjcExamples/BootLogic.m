@@ -29,6 +29,7 @@
                                      @{TITLE: @"cArray", CLASS: @"cArray"},
                                      @{TITLE: @"ArrayHW1", CLASS: @"ArrayHW1"},
                                      @{TITLE: @"ArrayHW2", CLASS: @"ArrayHW2"},
+                                      @{TITLE: @"ArrayHW3", CLASS: @"ArrayHW3"},
                                      @{TITLE: @"ArrayQuicksort8x8", CLASS: @"ArrayQuicksort8x8"},
                                      @{TITLE: @"ArrayQuicksortA_Z ", CLASS: @"ArrayQuicksortA_Z"},
                                   ]};

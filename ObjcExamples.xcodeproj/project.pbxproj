@@ -41,6 +41,7 @@
 		04E5203B1C08611600E23EF0 /* cArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5203A1C08611600E23EF0 /* cArray.m */; settings = {ASSET_TAGS = (); }; };
 		04E5203E1C086AAF00E23EF0 /* ArrayQuicksort8x8.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5203D1C086AAF00E23EF0 /* ArrayQuicksort8x8.m */; settings = {ASSET_TAGS = (); }; };
 		04E520411C0871EE00E23EF0 /* ArrayQuicksortA_Z.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E520401C0871EE00E23EF0 /* ArrayQuicksortA_Z.m */; settings = {ASSET_TAGS = (); }; };
+		04E520441C08D1F300E23EF0 /* ArrayHW3.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E520431C08D1F300E23EF0 /* ArrayHW3.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +120,8 @@
 		04E5203D1C086AAF00E23EF0 /* ArrayQuicksort8x8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayQuicksort8x8.m; sourceTree = "<group>"; };
 		04E5203F1C0871EE00E23EF0 /* ArrayQuicksortA_Z.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayQuicksortA_Z.h; sourceTree = "<group>"; };
 		04E520401C0871EE00E23EF0 /* ArrayQuicksortA_Z.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayQuicksortA_Z.m; sourceTree = "<group>"; };
+		04E520421C08D1F300E23EF0 /* ArrayHW3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayHW3.h; sourceTree = "<group>"; };
+		04E520431C08D1F300E23EF0 /* ArrayHW3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayHW3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -286,6 +289,8 @@
 				04E5203D1C086AAF00E23EF0 /* ArrayQuicksort8x8.m */,
 				04E5203F1C0871EE00E23EF0 /* ArrayQuicksortA_Z.h */,
 				04E520401C0871EE00E23EF0 /* ArrayQuicksortA_Z.m */,
+				04E520421C08D1F300E23EF0 /* ArrayHW3.h */,
+				04E520431C08D1F300E23EF0 /* ArrayHW3.m */,
 			);
 			name = Array;
 			sourceTree = "<group>";
@@ -445,6 +450,7 @@
 				04E5203E1C086AAF00E23EF0 /* ArrayQuicksort8x8.m in Sources */,
 				04E520251C06DCC500E23EF0 /* CreateArray.m in Sources */,
 				04E520301C077AFC00E23EF0 /* ArrayHW1.m in Sources */,
+				04E520441C08D1F300E23EF0 /* ArrayHW3.m in Sources */,
 				0499B9C01C04231C00B35444 /* main.m in Sources */,
 				04634F9C1C05702000CCB02B /* SkewImage.m in Sources */,
 				04E5202D1C074D7100E23EF0 /* Student.m in Sources */,
