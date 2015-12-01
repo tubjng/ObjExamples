@@ -20,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     mySwitch =[[CustomizedUISwitch alloc]initWithFrame:CGRectMake(0,0,216,80 )];
-    mySwitch.center = CGPointMake(self.view.bounds.size.width*0.5, 120);
+    mySwitch.center = CGPointMake(self.view.bounds.size.width*0.5, 340);
     [mySwitch addTarget:self action:@selector(switchChange:) forControlEvents:UIControlEventValueChanged];
     [self.view addSubview:mySwitch];
     
