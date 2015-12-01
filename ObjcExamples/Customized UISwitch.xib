@@ -19,22 +19,29 @@
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ait-w8-dpF">
                     <rect key="frame" x="21" y="99" width="363" height="229"/>
                     <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ti9-cJ-ncZ">
-                            <rect key="frame" x="89" y="77" width="82" height="76"/>
-                            <state key="normal" title="on"/>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zew-c6-Vt5">
-                            <rect key="frame" x="174" y="80" width="103" height="69"/>
-                            <state key="normal" title="off"/>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zew-c6-Vt5">
+                            <rect key="frame" x="172" y="78" width="89" height="74"/>
+                            <state key="normal" title="off" image="OffBlack.png"/>
                             <connections>
-                                <action selector="off:" destination="-1" eventType="touchUpInside" id="8Yu-rJ-bPb"/>
+                                <action selector="ButtonOffCS:" destination="-1" eventType="touchUpInside" id="o8i-Xe-N1s"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ti9-cJ-ncZ">
+                            <rect key="frame" x="101" y="78" width="89" height="74"/>
+                            <state key="normal" title="on" image="OnBlack.png"/>
+                            <connections>
+                                <action selector="ButtonOnCS:" destination="-1" eventType="touchUpInside" id="2Ff-x0-3Y1"/>
                             </connections>
                         </button>
                     </subviews>
-                    <color key="backgroundColor" red="0.83103015864611196" green="1" blue="0.88809202379638319" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" red="0.9641896691280637" green="1" blue="0.891590902746906" alpha="1" colorSpace="calibratedRGB"/>
                 </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
         </view>
     </objects>
+    <resources>
+        <image name="OffBlack.png" width="69" height="64"/>
+        <image name="OnBlack.png" width="74" height="64"/>
+    </resources>
 </document>

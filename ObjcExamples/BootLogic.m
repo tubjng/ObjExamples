@@ -20,7 +20,8 @@
                                      @{TITLE: @"Selector", CLASS: @"DemoSelector"},
                                      @{TITLE: @"CvsObcFunction", CLASS: @"CvsObcFunction"},
                                      @{TITLE: @"Slider", CLASS: @"DemoSlider"},
-                                     @{TITLE: @"UISwitch", CLASS: @"Customized_UISwitch"},
+                                     @{TITLE: @"Customized_UISwitch", CLASS: @"Customized_UISwitch"},
+                                     @{TITLE: @"CustomideUIS_REUSE", CLASS: @"CustomideUIS_REUSE"},
                                      @{TITLE: @"SkewImage", CLASS: @"SkewImage"}
                           ]};
     NSDictionary* intermediate = @{SECTION: @"Array", MENU: @[

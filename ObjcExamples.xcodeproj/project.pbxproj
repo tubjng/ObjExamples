@@ -30,6 +30,7 @@
 		0499BA0A1C0425E700B35444 /* DemoFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499BA091C0425E700B35444 /* DemoFunction.m */; settings = {ASSET_TAGS = (); }; };
 		0499BA131C04291100B35444 /* DemoSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 0499BA111C04291100B35444 /* DemoSelector.m */; settings = {ASSET_TAGS = (); }; };
 		0499BA141C04291100B35444 /* DemoSelector.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0499BA121C04291100B35444 /* DemoSelector.xib */; settings = {ASSET_TAGS = (); }; };
+		049BC4341C0B2F4700AC89C2 /* CustomizedUISwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 049BC4331C0B2F4700AC89C2 /* CustomizedUISwitch.m */; settings = {ASSET_TAGS = (); }; };
 		04E520121C06C57100E23EF0 /* CvsObcFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E520111C06C57100E23EF0 /* CvsObcFunction.m */; settings = {ASSET_TAGS = (); }; };
 		04E520251C06DCC500E23EF0 /* CreateArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E520241C06DCC500E23EF0 /* CreateArray.m */; settings = {ASSET_TAGS = (); }; };
 		04E520271C06E15700E23EF0 /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04E520261C06E15700E23EF0 /* Data.plist */; settings = {ASSET_TAGS = (); }; };
@@ -42,6 +43,7 @@
 		04E5203E1C086AAF00E23EF0 /* ArrayQuicksort8x8.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5203D1C086AAF00E23EF0 /* ArrayQuicksort8x8.m */; settings = {ASSET_TAGS = (); }; };
 		04E520411C0871EE00E23EF0 /* ArrayQuicksortA_Z.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E520401C0871EE00E23EF0 /* ArrayQuicksortA_Z.m */; settings = {ASSET_TAGS = (); }; };
 		04E520441C08D1F300E23EF0 /* ArrayHW3.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E520431C08D1F300E23EF0 /* ArrayHW3.m */; settings = {ASSET_TAGS = (); }; };
+		04E5AE941C0D8A320091F2BC /* CustomideUIS_REUSE.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5AE931C0D8A320091F2BC /* CustomideUIS_REUSE.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +102,8 @@
 		0499BA101C04291100B35444 /* DemoSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSelector.h; sourceTree = "<group>"; };
 		0499BA111C04291100B35444 /* DemoSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoSelector.m; sourceTree = "<group>"; };
 		0499BA121C04291100B35444 /* DemoSelector.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoSelector.xib; sourceTree = "<group>"; };
+		049BC4321C0B2F4700AC89C2 /* CustomizedUISwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomizedUISwitch.h; sourceTree = "<group>"; };
+		049BC4331C0B2F4700AC89C2 /* CustomizedUISwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomizedUISwitch.m; sourceTree = "<group>"; };
 		04E520101C06C57100E23EF0 /* CvsObcFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CvsObcFunction.h; sourceTree = "<group>"; };
 		04E520111C06C57100E23EF0 /* CvsObcFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CvsObcFunction.m; sourceTree = "<group>"; };
 		04E520231C06DCC500E23EF0 /* CreateArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateArray.h; sourceTree = "<group>"; };
@@ -122,6 +126,8 @@
 		04E520401C0871EE00E23EF0 /* ArrayQuicksortA_Z.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayQuicksortA_Z.m; sourceTree = "<group>"; };
 		04E520421C08D1F300E23EF0 /* ArrayHW3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayHW3.h; sourceTree = "<group>"; };
 		04E520431C08D1F300E23EF0 /* ArrayHW3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayHW3.m; sourceTree = "<group>"; };
+		04E5AE921C0D8A320091F2BC /* CustomideUIS_REUSE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomideUIS_REUSE.h; sourceTree = "<group>"; };
+		04E5AE931C0D8A320091F2BC /* CustomideUIS_REUSE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomideUIS_REUSE.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,6 +270,10 @@
 				04634F9B1C05702000CCB02B /* SkewImage.xib */,
 				04E520101C06C57100E23EF0 /* CvsObcFunction.h */,
 				04E520111C06C57100E23EF0 /* CvsObcFunction.m */,
+				049BC4321C0B2F4700AC89C2 /* CustomizedUISwitch.h */,
+				049BC4331C0B2F4700AC89C2 /* CustomizedUISwitch.m */,
+				04E5AE921C0D8A320091F2BC /* CustomideUIS_REUSE.h */,
+				04E5AE931C0D8A320091F2BC /* CustomideUIS_REUSE.m */,
 			);
 			name = Basic;
 			sourceTree = "<group>";
@@ -448,6 +458,7 @@
 				0499BA131C04291100B35444 /* DemoSelector.m in Sources */,
 				04E5203B1C08611600E23EF0 /* cArray.m in Sources */,
 				04E5203E1C086AAF00E23EF0 /* ArrayQuicksort8x8.m in Sources */,
+				049BC4341C0B2F4700AC89C2 /* CustomizedUISwitch.m in Sources */,
 				04E520251C06DCC500E23EF0 /* CreateArray.m in Sources */,
 				04E520301C077AFC00E23EF0 /* ArrayHW1.m in Sources */,
 				04E520441C08D1F300E23EF0 /* ArrayHW3.m in Sources */,
@@ -455,6 +466,7 @@
 				04634F9C1C05702000CCB02B /* SkewImage.m in Sources */,
 				04E5202D1C074D7100E23EF0 /* Student.m in Sources */,
 				04634F971C055E8300CCB02B /* Customized UISwitch.m in Sources */,
+				04E5AE941C0D8A320091F2BC /* CustomideUIS_REUSE.m in Sources */,
 				043C16EE1C04DD3000286C39 /* DemoSlider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -19,16 +19,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor yellowColor];
-    UIImage *test =[UIImage imageNamed:@"OnBlack.png"];
-  //   _on = [[UIButton alloc] init];
-    
-    [self.on setImage:test forState:UIControlStateNormal];
-    [self.on setImage:[UIImage imageNamed:@"OnWhite.png"] forState:UIControlStateSelected];
-    [self.off setImage:[UIImage imageNamed:@"OffBlack.png"] forState:UIControlStateNormal];
-    [self.off setImage:[UIImage imageNamed:@"OffWhite.png"] forState:UIControlStateSelected];
+    [_on setImage:[UIImage imageNamed:@"OnBlack.png"] forState:normal];
+    [_off setImage:[UIImage imageNamed:@"OffBlack.png"] forState:normal];
 }
-- (void) buttonTap {
-    _on.selected = !_off.selected;
+- (IBAction)ButtonOnCS:(id)sender {
+   if ([_off.currentImage isEqual:[UIImage imageNamed:@"OffWHile.png"]]) {
+        [_on setImage:[UIImage imageNamed:@"OnBlack.png"] forState:normal];
+        [_off setImage:[UIImage imageNamed:@"OffBlack.png"] forState:normal];
+
+    }
 }
+- (IBAction)ButtonOffCS:(id)sender {
+    if ([_on.currentImage isEqual:[UIImage imageNamed:@"OnBlack.png"]]) {
+        [_on setImage:[UIImage imageNamed:@"OnWhite.png"] forState:normal];
+        [_off setImage:[UIImage imageNamed:@"OffWhite.png"] forState:normal];
+    }
+}
+
 @end
