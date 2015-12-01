@@ -44,6 +44,8 @@
 		04E520411C0871EE00E23EF0 /* ArrayQuicksortA_Z.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E520401C0871EE00E23EF0 /* ArrayQuicksortA_Z.m */; settings = {ASSET_TAGS = (); }; };
 		04E520441C08D1F300E23EF0 /* ArrayHW3.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E520431C08D1F300E23EF0 /* ArrayHW3.m */; settings = {ASSET_TAGS = (); }; };
 		04E5AE941C0D8A320091F2BC /* CustomideUIS_REUSE.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5AE931C0D8A320091F2BC /* CustomideUIS_REUSE.m */; settings = {ASSET_TAGS = (); }; };
+		04E5AE991C0D97EA0091F2BC /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 04E5AE951C0D97EA0091F2BC /* util.c */; settings = {ASSET_TAGS = (); }; };
+		04E5AE9A1C0D97EA0091F2BC /* UtilObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5AE981C0D97EA0091F2BC /* UtilObject.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +130,10 @@
 		04E520431C08D1F300E23EF0 /* ArrayHW3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayHW3.m; sourceTree = "<group>"; };
 		04E5AE921C0D8A320091F2BC /* CustomideUIS_REUSE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomideUIS_REUSE.h; sourceTree = "<group>"; };
 		04E5AE931C0D8A320091F2BC /* CustomideUIS_REUSE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomideUIS_REUSE.m; sourceTree = "<group>"; };
+		04E5AE951C0D97EA0091F2BC /* util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = util.c; sourceTree = "<group>"; };
+		04E5AE961C0D97EA0091F2BC /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		04E5AE971C0D97EA0091F2BC /* UtilObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilObject.h; sourceTree = "<group>"; };
+		04E5AE981C0D97EA0091F2BC /* UtilObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -270,6 +276,10 @@
 				04634F9B1C05702000CCB02B /* SkewImage.xib */,
 				04E520101C06C57100E23EF0 /* CvsObcFunction.h */,
 				04E520111C06C57100E23EF0 /* CvsObcFunction.m */,
+				04E5AE961C0D97EA0091F2BC /* util.h */,
+				04E5AE951C0D97EA0091F2BC /* util.c */,
+				04E5AE971C0D97EA0091F2BC /* UtilObject.h */,
+				04E5AE981C0D97EA0091F2BC /* UtilObject.m */,
 				049BC4321C0B2F4700AC89C2 /* CustomizedUISwitch.h */,
 				049BC4331C0B2F4700AC89C2 /* CustomizedUISwitch.m */,
 				04E5AE921C0D8A320091F2BC /* CustomideUIS_REUSE.h */,
@@ -449,6 +459,8 @@
 				04E520121C06C57100E23EF0 /* CvsObcFunction.m in Sources */,
 				0499B9FE1C0423F900B35444 /* BootLogic.m in Sources */,
 				0499BA001C0423F900B35444 /* MainScreen.m in Sources */,
+				04E5AE991C0D97EA0091F2BC /* util.c in Sources */,
+				04E5AE9A1C0D97EA0091F2BC /* UtilObject.m in Sources */,
 				04E520411C0871EE00E23EF0 /* ArrayQuicksortA_Z.m in Sources */,
 				0499B9FF1C0423F900B35444 /* ConsoleScreen.m in Sources */,
 				0499B9FD1C0423F900B35444 /* AppDelegate.m in Sources */,

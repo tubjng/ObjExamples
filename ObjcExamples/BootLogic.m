@@ -18,11 +18,11 @@
     NSDictionary* basic = @{SECTION: @"Basic", MENU: @[
                                      @{TITLE: @"Function", CLASS: @"DemoFunction"},
                                      @{TITLE: @"Selector", CLASS: @"DemoSelector"},
-                                     @{TITLE: @"CvsObcFunction", CLASS: @"CvsObcFunction"},
                                      @{TITLE: @"Slider", CLASS: @"DemoSlider"},
-                                     @{TITLE: @"Customized_UISwitch", CLASS: @"Customized_UISwitch"},
                                      @{TITLE: @"CustomideUIS_REUSE", CLASS: @"CustomideUIS_REUSE"},
-                                     @{TITLE: @"SkewImage", CLASS: @"SkewImage"}
+                                     @{TITLE: @"SkewImage", CLASS: @"SkewImage"},
+                                     @{TITLE: @"CvsObcFunction", CLASS: @"CvsObcFunction"},
+                                     @{TITLE: @"Customized_UISwitch", CLASS: @"Customized_UISwitch"},
                           ]};
     NSDictionary* intermediate = @{SECTION: @"Array", MENU: @[
                                      @{TITLE: @"CreateArray", CLASS: @"CreateArray"},

@@ -8,7 +8,7 @@
 
 #import "CvsObcFunction.h"
 //#import "util.h"
-//#import "UtilObject.h"
+#import "UtilObject.h"
 
 @interface CvsObcFunction ()
 
@@ -20,10 +20,10 @@
     [super viewDidLoad];
     int result = add(10, 20);
     NSLog(@"%d",result);
-   // UtilObject* util =[UtilObject new];
+    UtilObject* util =[UtilObject new];
     result = [self addA:10 andB:30 ];
     NSLog(@"%ld",factorial(5));
-   // NSLog(@"%ld",[util factorial:5]);
+    NSLog(@"%ld",[util factorial:5]);
 }
 long factorial(long a) {
     if (a < 2) {
